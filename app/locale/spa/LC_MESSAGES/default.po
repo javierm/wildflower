@@ -1,0 +1,669 @@
+# LANGUAGE translation of CakePHP Application# Copyright 2008 NAME <simon@vtech.fr># No version information was available in the source files.#
+msgid ""
+msgstr ""
+"Project-Id-Version: wildflower\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-08 11:03+0200\n"
+"PO-Revision-Date: 2008-11-18 16:54+0100\n"
+"Last-Translator: Simon Bonaventure <simon@vtech.fr>\n"
+"Language-Team: V-technologies <simon@vtech.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: /views/categories/admin_add.ctp:6#: /views/categories/admin_edit.ctp:15#: /views/categories/admin_index.ctp:17msgid "Parent category"
+msgstr "Categoría padre"
+
+#: /views/categories/admin_add.ctp:9#: /views/categories/admin_edit.ctp:13#: /views/categories/admin_index.ctp:15#: /views/pages/admin_edit.ctp:22#: /views/posts/admin_edit.ctp:22msgid "Title"
+msgstr "Título"
+
+#: /views/categories/admin_add.ctp:10#: /views/categories/admin_edit.ctp:22#: /views/categories/admin_index.ctp:24#: /views/categories/admin_view.ctp:4#: /views/settings/admin_add.ctp:5msgid "Description"
+msgstr "Descripción"
+
+#: /views/categories/admin_add.ctp:11#: /views/settings/admin_add.ctp:11msgid "Add"
+msgstr "Añadir"
+
+#: /views/categories/admin_delete.ctp:1;5#: /views/categories/admin_index.ctp:4#: /views/elements/admin_index_toolbar.ctp:12#: /views/helpers/comments_list.php:67#: /views/messages/admin_index.ctp:3#: /views/messages/admin_view.ctp:4#: /views/pages/admin_delete.ctp:1;5#: /views/pages/admin_index.ctp:6#: /views/posts/admin_delete.ctp:1;5#: /views/posts/admin_index.ctp:5#: /views/sitemaps/admin_edit.ctp:20#: /views/sitemaps/admin_index.ctp:57#: /views/sitemaps/edit.ctp:20#: /views/uploads/admin_index.ctp:2#: /views/users/admin_delete.ctp:5#: /views/users/admin_index.ctp:13msgid "Delete"
+msgstr "Borrar"
+
+#: /views/categories/admin_delete.ctp:1#: /views/categories/admin_edit.ctp:8#: /views/categories/admin_view.ctp:1msgid "category"
+msgstr "Categoría"
+
+#: /views/categories/admin_delete.ctp:5msgid "Back to Categories overview"
+msgstr "Volver al índice de categorías"
+
+#: /views/categories/admin_edit.ctp:8msgid "Editing"
+msgstr "Editando"
+
+#: /views/categories/admin_edit.ctp:24#: /views/uploads/admin_edit.ctp:34#: /views/users/admin_change_password.ctp:15#: /views/users/admin_edit.ctp:20msgid "Save"
+msgstr "Guardar"
+
+#: /views/uploads/admin_edit.ctp:34msgid "View the original image"
+msgstr "Ver la imagen original"
+
+#: /views/categories/admin_index.ctp:10msgid "Create a new category"
+msgstr "Crear una nueva categoría"
+
+#: /views/categories/admin_index.ctp:15msgid "none"
+msgstr "ninguna"
+
+#: /views/categories/admin_index.ctp:26msgid "Create category"
+msgstr "Crear categoría"
+
+#: /views/categories/admin_view.ctp:1msgid "Viewing"
+msgstr "Viendo"
+
+#: /views/categories/admin_view.ctp:9msgid "Posts in this category"
+msgstr "Posts en esta categoría"
+
+#: /views/categories/view.ctp:6msgid "Posted"
+msgstr "Publicado"
+
+#: /views/categories/view.ctp:13msgid "Posted in"
+msgstr "Publicado en"
+
+#: /views/comments/admin_delete_confirmation.ctp:1msgid "Do you really want to delete comment"
+msgstr "¿Está seguro de querer borrar el comentario"
+
+#: /views/comments/admin_delete_confirmation.ctp:4#: /views/comments/admin_mark_as_spam_confirmation.ctp:3#: /views/comments/admin_not_spam_confirmation.ctp:4msgid "Author"
+msgstr "Autor"
+
+#: /views/comments/admin_delete_confirmation.ctp:5#: /views/comments/admin_edit.ctp:15#: /views/comments/admin_mark_as_spam_confirmation.ctp:4#: /views/comments/admin_not_spam_confirmation.ctp:5#: /views/messages/contact.ctp:11#: /views/users/admin_add.ctp:6#: /views/users/admin_edit.ctp:13#: /views/users/admin_index.ctp:23#: /views/users/admin_view.ctp:11msgid "Email"
+msgstr "Email"
+
+#: /views/comments/admin_delete_confirmation.ctp:6#: /views/comments/admin_mark_as_spam_confirmation.ctp:5#: /views/comments/admin_not_spam_confirmation.ctp:6msgid "Web"
+msgstr "Web"
+
+#: /views/comments/admin_delete_confirmation.ctp:7#: /views/comments/admin_mark_as_spam_confirmation.ctp:6#: /views/comments/admin_not_spam_confirmation.ctp:7msgid "Comment text"
+msgstr "Texto del comentario"
+
+#: /views/comments/admin_delete_confirmation.ctp:13#: /views/comments/admin_edit.ctp:27msgid "Delete this comment"
+msgstr "Borrar esta comentario"
+
+#: /views/comments/admin_delete_confirmation.ctp:14#: /views/comments/admin_mark_as_spam_confirmation.ctp:13#: /views/comments/admin_not_spam_confirmation.ctp:14#: /views/pages/admin_link.ctp:40#: /views/users/admin_add.ctp:14msgid "Cancel"
+msgstr "Cancelar"
+
+#: /views/comments/admin_delete_confirmation.ctp:18#: /views/comments/admin_edit.ctp:25#: /views/comments/admin_mark_as_spam_confirmation.ctp:17#: /views/comments/admin_not_spam_confirmation.ctp:18msgid "All comments"
+msgstr "Todos los comentarios"
+
+#: /views/comments/admin_delete_confirmation.ctp:19#: /views/comments/admin_edit.ctp:26#: /views/comments/admin_mark_as_spam_confirmation.ctp:18#: /views/comments/admin_mass_edit.ctp:15#: /views/comments/admin_not_spam_confirmation.ctp:19msgid "Comments marked as spam"
+msgstr "Comentarios marcados como no deseados"
+
+#: /views/comments/admin_edit.ctp:14#: /views/messages/contact.ctp:10#: /views/settings/admin_add.ctp:3#: /views/users/admin_add.ctp:5#: /views/users/admin_edit.ctp:12#: /views/users/admin_index.ctp:22#: /views/users/admin_view.ctp:13msgid "Name"
+msgstr "Nombre"
+
+#: /views/comments/admin_edit.ctp:16msgid "Url"
+msgstr "Url"
+
+#: /views/comments/admin_edit.ctp:17#: /views/messages/admin_view.ctp:19#: /views/messages/contact.ctp:14msgid "Content"
+msgstr "Contenido"
+
+#: /views/comments/admin_edit.ctp:19#: /views/elements/admin_comments_sub_nav.ctp:4msgid "Spam"
+msgstr "No deseado"
+
+#: /views/comments/admin_edit.ctp:21msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: /views/comments/admin_index.ctp:3msgid "Approved Comments"
+msgstr "Comentarios aprobados"
+
+#: /views/comments/admin_mark_as_spam_confirmation.ctp:1msgid "Do you want to mark comment #%s as spam"
+msgstr "¿Quiere marcar el comentario Nº%s como no deseado"
+
+#: /views/comments/admin_mark_as_spam_confirmation.ctp:12#: /views/helpers/comments_list.php:63#: /views/messages/admin_view.ctp:3msgid "Mark as spam"
+msgstr "Marcar como no deseado"
+
+#: /views/comments/admin_mass_edit.ctp:1#: /views/dashboards/admin_index.ctp:5msgid "Latest comments"
+msgstr "Últimos comentarios"
+
+#: /views/comments/admin_mass_edit.ctp:3msgid "Mass edit"
+msgstr "Edición múltiple"
+
+#: /views/comments/admin_not_spam_confirmation.ctp:1msgid "Are you sure this comment is not a spam ?"
+msgstr "¿Está seguro de que este comentario no es spam?"
+
+#: /views/comments/admin_not_spam_confirmation.ctp:13msgid "Mark as valid"
+msgstr "Marcar como válido"
+
+#: /views/comments/admin_spam.ctp:3msgid "Spam Comments"
+msgstr "Comentarios no deseados"
+
+#: /views/dashboards/admin_index.ctp:1msgid "Welcome to %s administration"
+msgstr "Bienvenido a la administración de %s"
+
+#: /views/dashboards/admin_index.ctp:1msgid "administration"
+msgstr "administración"
+
+#: /views/dashboards/admin_index.ctp:3msgid "Dashboard shows a summary of the latest happening on your site"
+msgstr "El panel de control muestra un resumen de las últimas novedades en su página"
+
+#: /views/dashboards/admin_index.ctp:8#: /views/helpers/comments_list.php:18msgid "No comments yet"
+msgstr "Todavía no hay comentarios"
+
+#: /views/dashboards/admin_index.ctp:17msgid "%s on %s"
+msgstr "%s en %s"
+
+#: /views/dashboards/admin_index.ctp:24msgid "Messages from the contact form"
+msgstr "Mensajes desde el formulario de contacto"
+
+#: /views/dashboards/admin_index.ctp:27msgid "No messages from contact form yet"
+msgstr "Todavía no hay mensajes desde el formulario de contacto"
+
+#: /views/dashboards/admin_search.ctp:1msgid "Find in pages"
+msgstr "Busca en las páginas"
+
+#: /views/dashboards/admin_search.ctp:5#: /views/dashboards/search.ctp:8msgid "Query"
+msgstr "Búsqueda"
+
+#: /views/dashboards/admin_search.ctp:6#: /views/dashboards/search.ctp:3;9#: /views/elements/admin_index_toolbar.ctp:6#: /views/elements/page_search.ctp:4#: /views/elements/sidebar_search.ctp:3;4msgid "Search"
+msgstr "Buscar"
+
+#: /views/dashboards/admin_search.ctp:11#: /views/dashboards/search.ctp:15msgid "Search results for"
+msgstr "Resultados de la búsqueda"
+
+#: /views/dashboards/search_results.ctp:22#: /views/elements/admin_search_results.ctp:22#: /views/elements/search_results.ctp:13msgid "No matches"
+msgstr "No hay resultados"
+
+#: /views/elements/admin_comments_sub_nav.ctp:3msgid "Approved"
+msgstr "Aprobados"
+
+#: /views/elements/admin_index_toolbar.ctp:5#: /views/elements/page_search.ctp:3msgid "Type to search"
+msgstr "Tipo de búsqueda"
+
+#: /views/elements/admin_index_toolbar.ctp:13#: /views/pages/admin_index.ctp:4#: /views/posts/admin_index.ctp:3msgid "Publish"
+msgstr "Publicar"
+
+#: /views/elements/admin_index_toolbar.ctp:14#: /views/elements/admin_page_list_item.ctp:11#: /views/pages/admin_index.ctp:5#: /views/posts/admin_index.ctp:4#: /views/posts/admin_search.ctp:18msgid "Draft"
+msgstr "Borrador"
+
+#: /views/elements/admin_page_list_item.ctp:9#: /views/sitemaps/admin_index.ctp:56msgid "Edit"
+msgstr "Editar"
+
+#: /views/elements/admin_revision_list.ctp:6#: /views/pages/admin_ajax_update.ctp:2#: /views/posts/admin_ajax_update.ctp:2msgid "current version"
+msgstr "versión actual"
+
+#: /views/elements/admin_revision_list.ctp:15#: /views/pages/admin_edit.ctp:17#: /views/posts/admin_edit.ctp:17msgid "Revision"
+msgstr "Versión"
+
+#: /views/elements/admin_revision_list.ctp:18#: /views/pages/admin_ajax_update.ctp:10#: /views/posts/admin_ajax_update.ctp:10msgid "%s saved %s by %s"
+msgstr "%s guardado %s por %s"
+
+#: /views/elements/breadcrumb.ctp:1msgid "You’re here"
+msgstr "Estás en"
+
+#: /views/elements/debug_notice.ctp:6msgid "Site is in debug mode"
+msgstr "La página se encuentra en modo de depuración"
+
+#: /views/elements/debug_notice.ctp:8msgid "In production turn this to <em>0</em> in <em>/app/config/core.php"
+msgstr "En producción, cambie esto a <em>0</em> en <em>/app/config/core.php"
+
+#: /views/elements/parent_pages_select.ctp:3msgid "Parent page"
+msgstr "Página padre"
+
+#: /views/elements/post_add_edit_sidebar.ctp:6msgid "Advanced options"
+msgstr "Opciones avanzadas"
+
+#: /views/elements/post_add_edit_sidebar.ctp:11#: /views/pages/admin_edit.ctp:40#: /views/posts/admin_edit.ctp:43msgid "Description Meta Tag"
+msgstr "Meta-etiqueta Descripción"
+
+#: /views/elements/post_add_edit_sidebar.ctp:12msgid "Keywords Meta Tag"
+msgstr "Meta-etiqueta palabras clave"
+
+#: /views/elements/post_add_edit_sidebar.ctp:13#: /views/pages/admin_edit.ctp:41#: /views/posts/admin_edit.ctp:44msgid "URL slug"
+msgstr "URL"
+
+#: /views/elements/post_add_edit_sidebar.ctp:14#: /views/pages/admin_edit.ctp:42#: /views/posts/admin_edit.ctp:45msgid "Created"
+msgstr "Creado"
+
+#: /views/elements/post_add_edit_sidebar.ctp:22msgid "Find a post by typing something"
+msgstr "Buscar en los posts"
+
+#: /views/elements/post_category_select.ctp:4#: /views/layouts/admin_default.ctp:62#: /views/posts/admin_edit.ctp:4msgid "Categories"
+msgstr "Categorías"
+
+#: /views/elements/email/text/contact_form.ctp:5msgid "Phone number"
+msgstr "Número de teléfono"
+
+#: /views/errors/error404.ctp:4msgid "Page not found"
+msgstr "No ha podido encontrarse la página"
+
+#: /views/errors/error404.ctp:5msgid "The page you are looking for is not here"
+msgstr "La página que está buscando no se encuentra en este lugar"
+
+#: /views/errors/missing_table.ctp:3msgid "Missing database table(s)"
+msgstr "Tabla inexistente en la base de datos"
+
+#: /views/errors/missing_table.ctp:5msgid "The database connection is fine. But have you imported <em>app/config/wildflower.sql</em> into your database ?"
+msgstr "La conexión con la base de datos funciona correctamente. Pero, ¿ha importado el fichero <em>app/config/wildflower.sql</em> en su base de datos?"
+
+#: /views/errors/no_database.ctp:1msgid "Database connection error"
+msgstr "Error en la conexión a la base de datos"
+
+#: /views/errors/no_database.ctp:3msgid "Wildflower can`t connect to your database. Check your database connection details in <em>app/config/database.php</em>"
+msgstr "Wildflower no se puede conectar con la base de datos. Compruebe los detalles de la conexión con la base de datos en <em>app/config/database.php</em>"
+
+#: /views/errors/no_database.ctp:5msgid "Current config"
+msgstr "Configuración actual"
+
+#: /views/helpers/comments_list.php:50msgid "responded $s to"
+msgstr "contestó $s en"
+
+#: /views/helpers/comments_list.php:61msgid "Not a spam"
+msgstr "No es un comentario no deseado"
+
+#: /views/helpers/list.php:24;26;34#: /views/helpers/table.php:19msgid "There are no records to display"
+msgstr "No hay registros que mostrar"
+
+#: /views/helpers/packager.php:107msgid "creating cache"
+msgstr "creando memoria caché"
+
+#: /views/helpers/pages_list.php:31msgid "No pages yet"
+msgstr "Todavía no hay páginas"
+
+#: /views/helpers/posts_list.php:23msgid "No posts yet"
+msgstr "Todavía no hay posts"
+
+#: /views/helpers/tags_list.php:23msgid "No tags yet"
+msgstr "Todavía no hay etiquetas"
+
+#: /views/helpers/tags_list.php:48msgid "All files"
+msgstr "Todos los ficheros"
+
+#: /views/layouts/admin_default.ctp:38#: /views/layouts/admin_editor.ctp:35#: /views/layouts/login.ctp:22msgid "View site home page"
+msgstr "Ver página inicial del sitio"
+
+#: /views/layouts/admin_default.ctp:42#: /views/layouts/admin_editor.ctp:40msgid "Log out"
+msgstr "Desconectar"
+
+#: /views/layouts/admin_default.ctp:50msgid "Dashboard"
+msgstr "Centro de control"
+
+#: /views/layouts/admin_default.ctp:51msgid "Pages"
+msgstr "Páginas"
+
+#: /views/layouts/admin_default.ctp:52msgid "Messages"
+msgstr "Mensajes"
+
+#: /views/layouts/admin_default.ctp:53msgid "Files"
+msgstr "Ficheros"
+
+#: /views/layouts/admin_default.ctp:54msgid "Users"
+msgstr "Usuarios"
+
+#: /views/layouts/admin_default.ctp:55msgid "Settings"
+msgstr "Configuración"
+
+#: /views/layouts/admin_default.ctp:58msgid "Blog"
+msgstr "Blog"
+
+#: /views/layouts/admin_default.ctp:61msgid "Posts"
+msgstr "Posts"
+
+#: /views/layouts/admin_default.ctp:63msgid "Comments"
+msgstr "Comentarios"
+
+#: /views/layouts/admin_default.ctp:66msgid "Common tasks"
+msgstr "Tareas Comunes"
+
+#: /views/layouts/admin_default.ctp:68msgid "Write a new post"
+msgstr "Escribir un nuevo post"
+
+#: /views/layouts/admin_default.ctp:69msgid "Add a new page"
+msgstr "Añadir una nueva página"
+
+#: /views/layouts/admin_default.ctp:82#: /views/layouts/login.ctp:34msgid "Powered by Wildflower"
+msgstr "Impulsado por Wildflower"
+
+#: /views/layouts/admin_default.ctp:83#: /views/layouts/login.ctp:35msgid "Icons by DryIcons"
+msgstr "Iconos por DryIcons"
+
+#: /views/layouts/admin_editor.ctp:39msgid "Logged in as"
+msgstr "Conectado como"
+
+#: /views/layouts/no_database.ctp:27msgid "Wildflower CMS"
+msgstr "Wildflower CMS"
+
+#: /views/messages/admin_view.ctp:5msgid "All messages"
+msgstr "Todos los mensajes"
+
+#: /views/messages/admin_view.ctp:15msgid "From"
+msgstr "De"
+
+#: /views/messages/admin_view.ctp:16msgid "Received"
+msgstr "Recibido"
+
+#: /views/messages/admin_view.ctp:17#: /views/messages/contact.ctp:12msgid "Phone"
+msgstr "Teléfono"
+
+#: /views/messages/admin_view.ctp:18#: /views/messages/contact.ctp:13msgid "Subject"
+msgstr "Asunto"
+
+#: /views/messages/contact.ctp:9msgid "Contact form"
+msgstr "Formulario de Contacto"
+
+#: /views/messages/contact.ctp:15msgid "Send my message"
+msgstr "Enviar mi mensaje"
+
+#: /views/pages/admin_about.ctp:1msgid "About Wildflower"
+msgstr "Acerca de Wildflower"
+
+#: /views/pages/admin_about.ctp:4msgid "Wildflower is an open source, completly free software licensed under the"
+msgstr "Wildflower es un software open source completamente libre, licenciado bajo la"
+
+#: /views/pages/admin_about.ctp:6msgid "That means you can copy, modify, redistribute or even resell it."
+msgstr "Eso significa que usted lo puede copiar, modificar, redistribuir e incluso vender."
+
+#: /views/pages/admin_about.ctp:9msgid "Links"
+msgstr "Enlaces"
+
+#: /views/pages/admin_about.ctp:11msgid "Wildfower Home"
+msgstr "Página principal de Wildflower"
+
+#: /views/pages/admin_about.ctp:12msgid "Google Code project page"
+msgstr "Página del projecto en Google Code"
+
+#: /views/pages/admin_about.ctp:13msgid "CakePHP framework"
+msgstr "CakePHP framework"
+
+#: /views/pages/admin_delete.ctp:1#: /views/posts/admin_delete.ctp:1msgid "page"
+msgstr "página"
+
+#: /views/pages/admin_delete.ctp:6#: /views/pages/admin_link.ctp:22;39#: /views/posts/admin_delete.ctp:6#: /views/users/admin_delete.ctp:5msgid "or"
+msgstr "o"
+
+#: /views/pages/admin_delete.ctp:7msgid "Back to Pages overview"
+msgstr "Volver a Listado de Páginas"
+
+#: /views/pages/admin_diff.ctp:1msgid "Revisions for"
+msgstr "Revisiones de"
+
+#: /views/pages/admin_diff.ctp:5msgid "No revisions for this page yet"
+msgstr "Aún no hay revisiones para esta página"
+
+#: /views/pages/admin_diff.ctp:7msgid "Click any of the revisions to load the changes inside the editor"
+msgstr "Haga clic en cualquiera de las revisiones para cargar los cambios en el editor"
+
+#: /views/pages/admin_diff.ctp:13msgid "saved %s by %s"
+msgstr "Salvado %s por %s"
+
+#: /views/pages/admin_diff.ctp:19msgid "Back to page edit"
+msgstr "Volver a la edición de la página"
+
+#: /views/pages/admin_drafts.ctp:4msgid "All"
+msgstr "Todos"
+
+#: /views/pages/admin_drafts.ctp:5msgid "Drafts"
+msgstr "Borradores"
+
+#: /views/pages/admin_drafts.ctp:7msgid "Draft Pages"
+msgstr "Borradores de Páginas"
+
+#: /views/pages/admin_edit.ctp:3#: /views/posts/admin_edit.ctp:3msgid "Title and content"
+msgstr "Título y contenido"
+
+#: /views/pages/admin_edit.ctp:4msgid "Sidebar"
+msgstr "Recuadro"
+
+#: /views/pages/admin_edit.ctp:5#: /views/posts/admin_edit.ctp:5msgid "Options"
+msgstr "Opciones"
+
+#: /views/pages/admin_edit.ctp:6#: /views/posts/admin_edit.ctp:6msgid "Preview"
+msgstr "Vista previa"
+
+#: /views/pages/admin_edit.ctp:7#: /views/posts/admin_edit.ctp:7msgid "Revisions"
+msgstr "Versiones"
+
+#: /views/pages/admin_edit.ctp:8#: /views/posts/admin_edit.ctp:8#: /views/sitemaps/admin_index.ctp:55msgid "View"
+msgstr "Ver"
+
+#: /views/pages/admin_edit.ctp:9msgid "All pages"
+msgstr "Todas las páginas"
+
+#: /views/pages/admin_edit.ctp:17#: /views/posts/admin_edit.ctp:17msgid "saved"
+msgstr "guardado"
+
+#: /views/pages/admin_edit.ctp:27msgid "Page content"
+msgstr "Contenido de la Página"
+
+#: /views/pages/admin_edit.ctp:39#: /views/posts/admin_edit.ctp:42msgid "Status"
+msgstr "Estado"
+
+#: /views/pages/admin_edit.ctp:45msgid "Delete this page"
+msgstr "Borrar esta página"
+
+#: /views/pages/admin_edit.ctp:55#: /views/posts/admin_edit.ctp:56msgid "Sidebar content"
+msgstr "Contenido del recuadro"
+
+#: /views/pages/admin_edit.ctp:72msgid "This page was last saved"
+msgstr "Esta página fue guardada por última vez"
+
+#: /views/pages/admin_edit.ctp:73#: /views/posts/admin_edit.ctp:76msgid "by %s"
+msgstr "por %s"
+
+#: /views/pages/admin_link.ctp:5msgid "Type the URL"
+msgstr "Escriba la URL"
+
+#: /views/pages/admin_link.ctp:10msgid "select a page"
+msgstr "Seleccione una página"
+
+#: /views/pages/admin_link.ctp:25msgid "a post"
+msgstr "un post"
+
+#: /views/pages/admin_search.ctp:3msgid "No pages match the search criteria"
+msgstr "No existen páginas que coincidan con los criterios de búsqueda"
+
+#: /views/posts/admin_delete.ctp:7msgid "Back to Posts overview"
+msgstr "Volver a vista general de posts"
+
+#: /views/posts/admin_edit.ctp:9msgid "All posts"
+msgstr "Todos los posts"
+
+#: /views/posts/admin_edit.ctp:31msgid "Post"
+msgstr "Post"
+
+#: /views/posts/admin_edit.ctp:48msgid "Delete this post"
+msgstr "Borrar este post"
+
+#: /views/posts/admin_edit.ctp:75msgid "This post was last saved"
+msgstr "Este post fue guardado por última vez"
+
+#: /views/posts/admin_index.ctp:32msgid "%start% to %end% of %count%"
+msgstr "%start% a %end% de %count%"
+
+#: /views/posts/admin_search.ctp:5msgid "No posts match the search criteria"
+msgstr "No existen posts que coincidan con los criterios de búsqueda"
+
+#: /views/settings/admin_add.ctp:4msgid "Value"
+msgstr "Valor"
+
+#: /views/settings/admin_add.ctp:7msgid "Type"
+msgstr "Tipo"
+
+#: /views/sitemaps/add.ctp:4msgid "Add %s"
+msgstr "Añadir %s"
+
+#: /views/sitemaps/add.ctp:4#: /views/sitemaps/admin_edit.ctp:4#: /views/sitemaps/admin_index.ctp:70#: /views/sitemaps/admin_view.ctp:2;48;49;51#: /views/sitemaps/edit.ctp:4#: /views/sitemaps/index.ctp:3#: /views/sitemaps/view.ctp:2;48;49;51msgid "Sitemap"
+msgstr "Mapa del sitio"
+
+#: /views/sitemaps/add.ctp:6#: /views/sitemaps/admin_edit.ctp:7#: /views/sitemaps/edit.ctp:7msgid "Left"
+msgstr "Izquierda"
+
+#: /views/sitemaps/add.ctp:7#: /views/sitemaps/admin_edit.ctp:8#: /views/sitemaps/edit.ctp:8msgid "Right"
+msgstr "Derecha"
+
+#: /views/sitemaps/add.ctp:8#: /views/sitemaps/admin_add.ctp:7#: /views/sitemaps/admin_edit.ctp:9#: /views/sitemaps/admin_view.ctp:19#: /views/sitemaps/edit.ctp:9#: /views/sitemaps/view.ctp:19msgid "Parent Id"
+msgstr "ID del padre"
+
+#: /views/sitemaps/add.ctp:9#: /views/sitemaps/admin_add.ctp:8#: /views/sitemaps/admin_edit.ctp:10#: /views/sitemaps/admin_view.ctp:24#: /views/sitemaps/edit.ctp:10#: /views/sitemaps/view.ctp:24msgid "Loc"
+msgstr "Loc"
+
+#: /views/sitemaps/add.ctp:10#: /views/sitemaps/admin_edit.ctp:11#: /views/sitemaps/edit.ctp:11msgid "Last modification"
+msgstr "Última modificación"
+
+#: /views/sitemaps/add.ctp:11#: /views/sitemaps/admin_add.ctp:9#: /views/sitemaps/admin_edit.ctp:12#: /views/sitemaps/edit.ctp:12msgid "Change freq"
+msgstr "Frecuencia de cambio"
+
+#: /views/sitemaps/add.ctp:12#: /views/sitemaps/admin_add.ctp:10#: /views/sitemaps/admin_edit.ctp:13#: /views/sitemaps/admin_view.ctp:39#: /views/sitemaps/edit.ctp:13#: /views/sitemaps/view.ctp:39msgid "Priority"
+msgstr "Prioridad"
+
+#: /views/sitemaps/add.ctp:15#: /views/sitemaps/admin_add.ctp:13#: /views/sitemaps/admin_edit.ctp:16msgid "Submit"
+msgstr "Enviar"
+
+#: /views/sitemaps/add.ctp:19#: /views/sitemaps/admin_edit.ctp:21#: /views/sitemaps/admin_view.ctp:50#: /views/sitemaps/edit.ctp:21#: /views/sitemaps/view.ctp:50msgid "List %s"
+msgstr "Listado %s"
+
+#: /views/sitemaps/add.ctp:19#: /views/sitemaps/admin_edit.ctp:21#: /views/sitemaps/admin_index.ctp:2#: /views/sitemaps/admin_view.ctp:50#: /views/sitemaps/edit.ctp:21#: /views/sitemaps/view.ctp:50msgid "Sitemaps"
+msgstr "Mapas del Sitio"
+
+#: /views/sitemaps/admin_add.ctp:2msgid "Add new node"
+msgstr "Añadir nuevo nodo"
+
+#: /views/sitemaps/admin_edit.ctp:4#: /views/sitemaps/admin_view.ctp:48#: /views/sitemaps/edit.ctp:4#: /views/sitemaps/view.ctp:48msgid "Edit %s"
+msgstr "Editar %s"
+
+#: /views/sitemaps/admin_edit.ctp:6#: /views/sitemaps/admin_view.ctp:4#: /views/sitemaps/edit.ctp:6#: /views/sitemaps/view.ctp:4#: /views/users/admin_view.ctp:5msgid "Id"
+msgstr "Id"
+
+#: /views/sitemaps/admin_edit.ctp:20#: /views/sitemaps/admin_index.ctp:57#: /views/sitemaps/admin_view.ctp:49#: /views/sitemaps/edit.ctp:20#: /views/sitemaps/view.ctp:49msgid "Are you sure you want to delete # %s?"
+msgstr "¿Está seguro de que quiere borrar # %s ?"
+
+#: /views/sitemaps/admin_index.ctp:6msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr "Página %page% de %pages%, mostrando %current% registros de un total de %count%, desde %start% hasta %end%"
+
+#: /views/sitemaps/admin_index.ctp:19msgid "Actions"
+msgstr "Acciones"
+
+#: /views/sitemaps/admin_index.ctp:64msgid "previous"
+msgstr "anterior"
+
+#: /views/sitemaps/admin_index.ctp:66msgid "next"
+msgstr "siguiente"
+
+#: /views/sitemaps/admin_index.ctp:70#: /views/sitemaps/admin_view.ctp:51#: /views/sitemaps/view.ctp:51msgid "New %s"
+msgstr "Nuevo %s"
+
+#: /views/sitemaps/admin_view.ctp:9#: /views/sitemaps/view.ctp:9msgid "Lft"
+msgstr "Izquierda"
+
+#: /views/sitemaps/admin_view.ctp:14#: /views/sitemaps/view.ctp:14msgid "Rght"
+msgstr "Derecha"
+
+#: /views/sitemaps/admin_view.ctp:29#: /views/sitemaps/view.ctp:29msgid "Lastmod"
+msgstr "Última Modificación"
+
+#: /views/sitemaps/admin_view.ctp:34#: /views/sitemaps/view.ctp:34msgid "Changefreq"
+msgstr "Frecuencia de cambio"
+
+#: /views/sitemaps/admin_view.ctp:49#: /views/sitemaps/view.ctp:49msgid "Delete %s"
+msgstr "Borrar %s"
+
+#: /views/uploads/admin_edit.ctp:3#: /views/users/admin_change_password.ctp:3#: /views/users/admin_edit.ctp:3msgid "Show All"
+msgstr "Mostrar todo"
+
+#: /views/uploads/admin_edit.ctp:7#: /views/uploads/admin_index.ctp:58msgid "File"
+msgstr "Fichero"
+
+#: /views/uploads/admin_edit.ctp:14msgid "This image is resized"
+msgstr "Esta imagen está redimensionada"
+
+#: /views/uploads/admin_edit.ctp:21msgid "You can download it"
+msgstr "Puede descargarlo"
+
+#: /views/uploads/admin_edit.ctp:30#: /views/uploads/admin_index.ctp:60msgid "Title <small>(optional)</small>"
+msgstr "Título <small>(opcional)</small>"
+
+#: /views/uploads/admin_index.ctp:7msgid "No files tagged with"
+msgstr "No hay ficheros con la etiqueta"
+
+#: /views/uploads/admin_index.ctp:9msgid "No files uploaded"
+msgstr "No hay ficheros actualizados"
+
+#: /views/uploads/admin_index.ctp:54msgid "Upload a new file"
+msgstr "Subir un nuevo fichero"
+
+#: /controllers/uploads_controller.php:146msgid "Maximum allowed file size: %s"
+msgstr "Tamaño máximo permitido: %s"
+
+#: /views/uploads/admin_index.ctp:61#: /views/uploads/admin_quick_upload.ctp:4msgid "Upload"
+msgstr "Enviar"
+
+#: /views/uploads/admin_insert_image.ctp:5msgid "Select this image"
+msgstr "Seleccionar esta imagen"
+
+#: /views/uploads/admin_quick_upload.ctp:3msgid "Browse your computer"
+msgstr "Navegar por su equipo"
+
+#: /views/users/admin_add.ctp:1#: /views/users/admin_view.ctp:22msgid "New User"
+msgstr "Nuevo Usuario"
+
+#: /views/users/admin_add.ctp:7#: /views/users/admin_edit.ctp:16#: /views/users/admin_index.ctp:24#: /views/users/admin_view.ctp:7msgid "Login"
+msgstr "Identificación"
+
+#: /views/users/admin_add.ctp:8;13#: /views/users/admin_index.ctp:25#: /views/users/admin_view.ctp:9msgid "Password"
+msgstr "Contraseña"
+
+#: /views/users/admin_add.ctp:9#: /views/users/admin_index.ctp:26msgid "Confirm password"
+msgstr "Confirmar contraseña"
+
+#: /views/users/admin_change_password.ctp:8msgid "Change password for user"
+msgstr "Cambiar contraseña para el usuario"
+
+#: /views/users/admin_change_password.ctp:11msgid "New password"
+msgstr "Nueva contraseña"
+
+#: /views/users/admin_change_password.ctp:12msgid "New password again"
+msgstr "Repita la nueva contraseña"
+
+#: /views/users/admin_delete.ctp:1msgid "Delete user"
+msgstr "Borrar usuario"
+
+#: /views/users/admin_delete.ctp:5msgid "Back to Users overview"
+msgstr "Volver al listado de Usuarios"
+
+#: /views/users/admin_edit.ctp:8msgid "Editing user"
+msgstr "Editando Usuario"
+
+#: /views/users/admin_edit.ctp:17msgid "Change password"
+msgstr "Cambiar contraseña"
+
+#: /views/users/admin_index.ctp:19msgid "Add a new user account"
+msgstr "Añadir una nueva cuenta de usuario"
+
+#: /views/users/admin_index.ctp:27msgid "Create"
+msgstr "Crear"
+
+#: /views/users/admin_view.ctp:2msgid "View User"
+msgstr "Ver Usuario"
+
+#: /views/users/admin_view.ctp:19msgid "Edit User"
+msgstr "Editar Usuario"
+
+#: /views/users/admin_view.ctp:20msgid "Delete User"
+msgstr "Borrar Usuario"
+
+#: /views/users/admin_view.ctp:20msgid "Are you sure you want to delete"
+msgstr "¿Esta seguro de que quiere borrar"
+
+#: /views/users/admin_view.ctp:21msgid "List Users"
+msgstr "Listado de Usuarios"
+
+#: /views/users/login.ctp:2msgid "You are already logged in. There's no need to do it again"
+msgstr "Ya esta identificado. No es necesario hacerlo de nuevo."
+
+#: /views/users/login.ctp:6msgid "login"
+msgstr "usuario"
+
+#: /views/users/login.ctp:7msgid "password"
+msgstr "contraseña"
+
+#: /views/users/login.ctp:11msgid "Remember me?"
+msgstr "¿Recordarme?"
+
+#: /views/users/login.ctp:13msgid "Log in"
+msgstr "Conectarse"
+
+#: /views/users/login.ctp:16msgid "Back to"
+msgstr "Volver a"
+
+#~ msgid "checkbox"#~ msgstr "case à cocher"
