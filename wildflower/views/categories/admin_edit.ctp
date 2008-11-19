@@ -5,7 +5,8 @@ echo $navigation->create(array(
 ?>
 
 <div id="category-form">
-    <h3><?php echo __('Editing') ?><em><?php echo hsc($this->data['Category']['title']) ?></em> <?php echo __('category') ?></h3>
+    <h3><?php echo sprintf(__("Editing %s category", true),
+                          '<em>' .hsc($this->data['Category']['title']) .'</em>')?></h3>
     <?php
         echo 
         $form->create('Category'),
