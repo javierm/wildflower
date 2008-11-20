@@ -219,6 +219,50 @@ class WildPagesController extends WildflowerAppController {
         $this->redirect("/admin/pages/#page-$id");
     }
     
+     /**
+      * Moves an element within its model tree.
+      * Expected data:
+      * dom_id: it should be a string following the pattern: "Modelname-ID".
+      * number: number of positions the element is gonna be moved. A positive
+      * number means it's gonna be moved down, and a negative one means
+      * it's gonna be moved up. Special characters can be used as 'up' and 'down' as well.
+    */
+    function wf_move_tree_element() {
+        $model = $this->modelClass;
+        $dom_id = $this->data['dom_id'];		
+        $number = $this->data['number'];		
+		
+        //Possible characters to be used as indicators.
+        $up = array('+', '▲', '-1');
+        $down = array('-', '▼', '1');
+		
+        if(in_array($number, $up)) {
+            $number = -1;
+        } elseif(in_array($number, $down)) {
+            $number = 1;
+        } else {
+            $number = intval($number);
+        }
+		
+        list($model_name, $id) = explode('-', $dom_id);		
+        $id = intval($id);
+        
+       	if($number > 0) {
+            $this->$model->moveDown($id, $number);
+        } else {
+            $this->$model->moveUp($id, abs($number));
+        }
+    	
+        if($this->RequestHandler->isAjax()) {
+            $this->layout = 'xml';
+            $this->viewPath = 'elements';
+            $this->set('data', $this->data);
+            $this->render('json');
+        } else {
+            $this->redirect(array('action' => 'index')); 	
+        }
+    }
+
     /**
      * Regenerate URL field for each page
      * 

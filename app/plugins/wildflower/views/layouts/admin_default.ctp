@@ -16,6 +16,7 @@
         $html->css(array(
             '/wildflower/css/wf.main',
             '/wildflower/css/wf.switcher',
+	    '/wildflower/css/wf.list-buttons'
         )),
         // Load your Javascript here
         $javascript->link(array(

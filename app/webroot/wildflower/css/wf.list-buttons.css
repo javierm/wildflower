@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+.list-item
+{
+  border-bottom:1px solid #EEEEEE;
+  padding:3px 6px;
+  position: relative;
+}
+
+.list-item form, .list-item div.submit
+{
+	display: inline;
+}
+
+.list-item div.submit input
+{
+	border:1px solid #999999;
+	cursor:default;
+	font-size:0.4em;
+	height:45%;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:0;
+	text-align:center;
+	vertical-align:middle;
+	z-index:100;
+}
+
+.list-item input.move-up
+{
+	border-bottom: medium none;
+}
+
+.list-item input.move-down
+{
+	bottom: 0;
+}
