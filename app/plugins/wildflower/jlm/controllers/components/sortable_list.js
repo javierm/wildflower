@@ -39,9 +39,9 @@ $.jlm.addComponent('sortable_list', {
             return index;   
         }
 
-        function move_item(list_item, number, class) {
+        function move_item(list_item, number, css_class) {
             //TODO: a bit of duplication here
-            if( class == 'move-down' ) {
+            if( css_class == 'move-down' ) {
                 list_item.fadeOut('slow', function() {
                     $(this).insertAfter($(this).next()).fadeIn('slow');
                     reassign_odd_class();
