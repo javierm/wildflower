@@ -10,7 +10,7 @@ $.jlm.addComponent('sortable_list', {
             });
         
             $('.list-item .move-up, .list-item .move-down').click(function() {
-                move_item($(this).parent().parent().parent().parent(), this.value,
+                move_item($(this).parents('li:first'), this.value,
                            $(this).attr('class'));
                 return false;
             });
